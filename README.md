@@ -21,7 +21,7 @@ The use of machine learning algorithms to classify the level of dementia based o
 * Grayscale images.
 
 
-An example of the images can be seen on Figure 1.
+An example of the images can be seen on **Figure 1**.
 <figure align="center">
     <img src="assets/mri_example.jpeg" alt="MRI Image Example" width="50%">
 </figure>
@@ -37,7 +37,7 @@ The dataset is divided into 4 classes:
 * Moderate Demented.
   
 The classes are unbalanced, with the majority of the images being classified as Non-Demented.
-To account for this factor the same distribution of classes was maintained for the training and test sets, as shown on Figure 2.
+To account for this factor the same distribution of classes was maintained for the training and test sets, as shown on **Figure 2**.
 <figure align="center">
     <img src="assets/class_dist.png" alt="Class Distribution" width="100%">
 </figure>
@@ -57,6 +57,23 @@ To account for this factor the same distribution of classes was maintained for t
 
 First, different levels of Gaussian blur (**Figure 3**) were applied to the images to evaluate how this would affect the performance of each model. Moreover, a Local Binary Pattern (LBP) (**Figure 4**) was employed to extract features from the images for the KNN and Decision Tree models. Next, for the SVM a 
 Histogram of Oriented Gradients (HOG) (**Figure 5** illustrates better how this method works with an image of a dog) was implemented to extract a gradient map from the images. The only treatment for the MLP and CNN models was the Gaussian blur.
+<figure align="center">
+    <img src="assets/noise.png" alt="Noise Distribution" width="100%">
+</figure>
+
+*Figure 3. First images on the left shows an example of the control group; The image on the middle presents an example of the low gaussian blur group; Lastly, the image on the right shows an example of an image with the highest amount of noise on this study.*
+
+<figure align="center">
+    <img src="assets/LBP.png" alt="LBP" width="50%">
+</figure>
+
+*Figure 4. Example of an output from the Local Binary Pattern algorithm.*
+
+<figure align="center">
+    <img src="assets/HOG.png" alt="LBP" width="50%">
+</figure>
+
+*Figure 5. Example of an output from the HOG algorithm. An image of a dog was used to better illustrate how the gradient map works.*
 
 ## Grid Search and Cross Validation
 
