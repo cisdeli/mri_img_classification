@@ -64,7 +64,7 @@ Histogram of Oriented Gradients (HOG) (**Figure 5** illustrates better how this 
 *Figure 3. First images on the left shows an example of the control group; The image on the middle presents an example of the low gaussian blur group; Lastly, the image on the right shows an example of an image with the highest amount of noise on this study.*
 
 <figure align="center">
-    <img src="assets/LBP.png" alt="LBP" width="50%">
+    <img src="assets/LBP.png" alt="LBP" width="25%">
 </figure>
 
 *Figure 4. Example of an output from the Local Binary Pattern algorithm.*
