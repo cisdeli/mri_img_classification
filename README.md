@@ -1,6 +1,6 @@
 # Classifying levels of Alzheimer's disease using MRI and machine learning
 
-The objective of this project is to test different machine learning classification algorithms paired with different
+The objective of this project is to evaluate the perfomance of different machine learning classification algorithms paired with
 image processing techniques. Additionally, we will use the trained models to predict the level of dementia
 based on the MRI images.
 
