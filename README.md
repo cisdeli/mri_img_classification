@@ -39,7 +39,7 @@ The dataset is divided into 4 classes:
 The classes are unbalanced, with the majority of the images being classified as Non-Demented.
 To account for this factor the same distribution of classes was maintained for the training and test sets, as shown on Figure 2.
 <figure align="center">
-    <img src="assets/class_dist.png" alt="Class Distribution" width="50%">
+    <img src="assets/class_dist.png" alt="Class Distribution" width="100%">
 </figure>
 
 
@@ -55,10 +55,15 @@ To account for this factor the same distribution of classes was maintained for t
 
 ## Image Processing
 
-First, it was applied different levels of Gaussian blur to the images to evaluate how this would affect the performance of each model. 
+First, different levels of Gaussian blur were applied to the images to evaluate how this would affect the performance of each model. 
 Moreover, a Local Binary Pattern (LBP) was employed to extract features from the images for the KNN and Decision Tree models. Next, for the SVM a 
-Histogram of Oriented Gradients (HOG) was implemented to extract a gradient map from the images.
+Histogram of Oriented Gradients (HOG) was implemented to extract a gradient map from the images. The only treatment for the MLP and CNN models was the Gaussian blur.
 
+## Grid Search and Cross Validation
+
+Grid search and cross validation methods were employed to ensure that all of the models had the best parameters possible.
+
+## Results
 
 ## Improvements
 - [ ] Show models architecture.
