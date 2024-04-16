@@ -7,6 +7,10 @@ based on the MRI images.
 This project was developed for a Machine Learning class at the University of São Paulo (USP) in 2021. Because of this, most of the reports are in Portuguese.
 I will try to translate them to English as soon as possible. For now use this markdown file as a guide to the project.
 
+***Authors***:
+* Paulo Ricardo J. Miranda, NUSP: 10133456
+* Pedro Henrique Magalhães Cisdeli, NUSP: 10289804
+
 ## Relevancy of the project
 
 Alzheimer's disease is a neurodegenerative disease that affects millions of people worldwide. The disease is known for a really complex diagnosis process, which involves a lot of different exams and specialists.
