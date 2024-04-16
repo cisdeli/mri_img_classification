@@ -55,9 +55,8 @@ To account for this factor the same distribution of classes was maintained for t
 
 ## Image Processing
 
-First, different levels of Gaussian blur were applied to the images to evaluate how this would affect the performance of each model. 
-Moreover, a Local Binary Pattern (LBP) was employed to extract features from the images for the KNN and Decision Tree models. Next, for the SVM a 
-Histogram of Oriented Gradients (HOG) was implemented to extract a gradient map from the images. The only treatment for the MLP and CNN models was the Gaussian blur.
+First, different levels of Gaussian blur (**Figure 3**) were applied to the images to evaluate how this would affect the performance of each model. Moreover, a Local Binary Pattern (LBP) (**Figure 4**) was employed to extract features from the images for the KNN and Decision Tree models. Next, for the SVM a 
+Histogram of Oriented Gradients (HOG) (**Figure 5** illustrates better how this method works with an image of a dog) was implemented to extract a gradient map from the images. The only treatment for the MLP and CNN models was the Gaussian blur.
 
 ## Grid Search and Cross Validation
 
