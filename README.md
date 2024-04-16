@@ -1,7 +1,7 @@
 # Classifying levels of Alzheimer's disease using MRI and machine learning
 
-The objective of this project is to test different machine learning classification algorithms as well as different 
-image processing techniques on the training set. Additionally, we will use the trained models to predict the level of dementia
+The objective of this project is to test different machine learning classification algorithms paired with different
+image processing techniques. Additionally, we will use the trained models to predict the level of dementia
 based on the MRI images.
 
 This project was developed for a Machine Learning class at the University of São Paulo (USP) in 2021. Because of this, most of the reports are in Portuguese.
@@ -15,19 +15,36 @@ The use of machine learning algorithms to classify the level of dementia based o
 
 ## Dataset Information
 
-* The dataset can be accessed on (Kaggle)[https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection]
+* The dataset can be accessed on [Kaggle](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection).
 * 6400 MRI images of the brain.
 * Resolution is 128x128 pixels.
 * Grayscale images.
+
+
 An example of the images can be seen on Figure 1.
+<figure align="center">
+    <img src="assets/mri_example.jpeg" alt="MRI Image Example" width="50%">
+</figure>
 
-![MRI Image example](assets/mri_example.jpeg "MRI Image Example")
-*Figure.1 - MRI Image example from the dataset.*
 
-* The dataset is divided into 4 classes: Non-Demented, Very Mild Demented, Mild Demented, Moderate Demented.
-The dataset is unbalanced, with the majority of the images being classified as Non-Demented.
-To account for this factor we kept the same distribution of classes in the training and test sets, as shown on Figure 2 and Figure 3
---- fig 2 and 3 here---
+*Figure 1. Example of a MRI Image from the dataset.*
+
+### Classes
+The dataset is divided into 4 classes: 
+* Non-Demented.
+* Very Mild Demented.
+* Mild Demented.
+* Moderate Demented.
+  
+The classes are unbalanced, with the majority of the images being classified as Non-Demented.
+To account for this factor the same distribution of classes was maintained for the training and test sets, as shown on Figure 2.
+<figure align="center">
+    <img src="assets/class_dist.png" alt="Class Distribution" width="50%">
+</figure>
+
+
+*Figure 2. Bar graph of the original class distribution from the dataset on the left; Bar graph showing the same class distribution being kept for the train and test set on the right.*
+
 
 ## Models Tested
 * K-Nearest Neighbors *(KNN)*.
