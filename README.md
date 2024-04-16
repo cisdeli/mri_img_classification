@@ -19,7 +19,7 @@ The use of machine learning algorithms to classify the level of dementia based o
 
 ## Dataset Information
 
-* The dataset can be accessed on [Kaggle](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection).
+* The dataset can be accessed on [Kaggle](https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images).
 * 6400 MRI images of the brain.
 * Resolution is 128x128 pixels.
 * Grayscale images.
@@ -31,7 +31,7 @@ An example of the images can be seen on **Figure 1**.
 </figure>
 
 
-*Figure 1. Example of a MRI Image from the dataset.*
+*Figure 1. Example of a higher resolution brain MRI Image - [Source](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection).*
 
 ### Classes
 The dataset is divided into 4 classes: 
