@@ -1,11 +1,15 @@
 # Classifying levels of Alzheimer's disease using MRI and machine learning
 
-The objective of this project is to test different machine learning classification algorithms paired with different
+The objective of this project is to evaluate the perfomance of different machine learning classification algorithms paired with
 image processing techniques. Additionally, we will use the trained models to predict the level of dementia
 based on the MRI images.
 
 This project was developed for a Machine Learning class at the University of São Paulo (USP) in 2021. Because of this, most of the reports are in Portuguese.
 I will try to translate them to English as soon as possible. For now use this markdown file as a guide to the project.
+
+***Authors***:
+* Paulo Ricardo J. Miranda, NUSP: 10133456
+* Pedro Henrique Magalhães Cisdeli, NUSP: 10289804
 
 ## Relevancy of the project
 
@@ -15,7 +19,7 @@ The use of machine learning algorithms to classify the level of dementia based o
 
 ## Dataset Information
 
-* The dataset can be accessed on [Kaggle](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection).
+* The dataset can be accessed on [Kaggle](https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images).
 * 6400 MRI images of the brain.
 * Resolution is 128x128 pixels.
 * Grayscale images.
@@ -27,7 +31,7 @@ An example of the images can be seen on **Figure 1**.
 </figure>
 
 
-*Figure 1. Example of a MRI Image from the dataset.*
+*Figure 1. Example of a higher resolution brain MRI Image - [Source](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection).*
 
 ### Classes
 The dataset is divided into 4 classes: 
@@ -64,7 +68,7 @@ Histogram of Oriented Gradients (HOG) (**Figure 5** illustrates better how this 
 *Figure 3. First images on the left shows an example of the control group; The image on the middle presents an example of the low gaussian blur group; Lastly, the image on the right shows an example of an image with the highest amount of noise on this study.*
 
 <figure align="center">
-    <img src="assets/LBP.png" alt="LBP" width="50%">
+    <img src="assets/LBP.png" alt="LBP" width="25%">
 </figure>
 
 *Figure 4. Example of an output from the Local Binary Pattern algorithm.*
